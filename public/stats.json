@@ -1,0 +1,130 @@
+{
+  "assetsByChunkName": {
+    "path---your-story": [
+      "path---your-story-1db04e5021b40904aca6.js",
+      "path---your-story-1db04e5021b40904aca6.js.map"
+    ],
+    "path---local-stories-story-3": [
+      "path---local-stories-story-3-1db04e5021b40904aca6.js",
+      "path---local-stories-story-3-1db04e5021b40904aca6.js.map"
+    ],
+    "component---src-pages-local-stories-story-3-js": [
+      "component---src-pages-local-stories-story-3-js-f8edf18bd6ea648ee723.js",
+      "component---src-pages-local-stories-story-3-js-f8edf18bd6ea648ee723.js.map"
+    ],
+    "component---src-pages-local-stories-story-2-js": [
+      "component---src-pages-local-stories-story-2-js-8904c54fb8e45f0e8ce9.js",
+      "component---src-pages-local-stories-story-2-js-8904c54fb8e45f0e8ce9.js.map"
+    ],
+    "path---local-stories-learn-more": [
+      "path---local-stories-learn-more-1db04e5021b40904aca6.js",
+      "path---local-stories-learn-more-1db04e5021b40904aca6.js.map"
+    ],
+    "component---src-pages-events-event-2-js": [
+      "component---src-pages-events-event-2-js-4fa4afb8f95421230745.js",
+      "component---src-pages-events-event-2-js-4fa4afb8f95421230745.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-4d5d3f6f090e11f0997b.js",
+      "component---src-pages-index-js-4d5d3f6f090e11f0997b.js.map"
+    ],
+    "path---events": [
+      "path---events-1db04e5021b40904aca6.js",
+      "path---events-1db04e5021b40904aca6.js.map"
+    ],
+    "path---greatest-story": [
+      "path---greatest-story-1db04e5021b40904aca6.js",
+      "path---greatest-story-1db04e5021b40904aca6.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-events-event-3-js": [
+      "component---src-pages-events-event-3-js-ec75cd265f0e641b5055.js",
+      "component---src-pages-events-event-3-js-ec75cd265f0e641b5055.js.map"
+    ],
+    "component---src-pages-your-story-index-js": [
+      "component---src-pages-your-story-index-js-6ca62d7280a65d05a86a.js",
+      "component---src-pages-your-story-index-js-6ca62d7280a65d05a86a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-ef38cd6039fc270ca991.js",
+      "component---src-layouts-index-js-ef38cd6039fc270ca991.js.map"
+    ],
+    "path---index": [
+      "path---index-1db04e5021b40904aca6.js",
+      "path---index-1db04e5021b40904aca6.js.map"
+    ],
+    "component---src-pages-events-index-js": [
+      "component---src-pages-events-index-js-43e3af856af153c4203d.js",
+      "component---src-pages-events-index-js-43e3af856af153c4203d.js.map"
+    ],
+    "component---src-pages-events-event-1-js": [
+      "component---src-pages-events-event-1-js-22f7314eacd3b0ab2410.js",
+      "component---src-pages-events-event-1-js-22f7314eacd3b0ab2410.js.map"
+    ],
+    "path---events-event-1": [
+      "path---events-event-1-1db04e5021b40904aca6.js",
+      "path---events-event-1-1db04e5021b40904aca6.js.map"
+    ],
+    "path---local-stories-story-2": [
+      "path---local-stories-story-2-1db04e5021b40904aca6.js",
+      "path---local-stories-story-2-1db04e5021b40904aca6.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-f5443d246fa1cc22ebdd.js",
+      "component---src-pages-404-js-f5443d246fa1cc22ebdd.js.map"
+    ],
+    "commons": [
+      "commons-4609c752eef511c21244.js",
+      "commons-4609c752eef511c21244.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-1db04e5021b40904aca6.js",
+      "path---404-html-1db04e5021b40904aca6.js.map"
+    ],
+    "component---src-pages-local-stories-learn-more-js": [
+      "component---src-pages-local-stories-learn-more-js-3a0f068a8cf95115148b.js",
+      "component---src-pages-local-stories-learn-more-js-3a0f068a8cf95115148b.js.map"
+    ],
+    "component---src-pages-local-stories-story-1-js": [
+      "component---src-pages-local-stories-story-1-js-021d435adb76a7f4a903.js",
+      "component---src-pages-local-stories-story-1-js-021d435adb76a7f4a903.js.map"
+    ],
+    "component---src-pages-local-stories-index-js": [
+      "component---src-pages-local-stories-index-js-41c0ff5c4a5a3b414be7.js",
+      "component---src-pages-local-stories-index-js-41c0ff5c4a5a3b414be7.js.map"
+    ],
+    "component---src-pages-greatest-story-index-js": [
+      "component---src-pages-greatest-story-index-js-04b30a1ccb62344405c4.js",
+      "component---src-pages-greatest-story-index-js-04b30a1ccb62344405c4.js.map"
+    ],
+    "app": [
+      "app-abb0b7c9915f94f663de.js",
+      "build-js-styles.css",
+      "app-abb0b7c9915f94f663de.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---local-stories": [
+      "path---local-stories-1db04e5021b40904aca6.js",
+      "path---local-stories-1db04e5021b40904aca6.js.map"
+    ],
+    "path---404": [
+      "path---404-1db04e5021b40904aca6.js",
+      "path---404-1db04e5021b40904aca6.js.map"
+    ],
+    "path---local-stories-story-1": [
+      "path---local-stories-story-1-1db04e5021b40904aca6.js",
+      "path---local-stories-story-1-1db04e5021b40904aca6.js.map"
+    ],
+    "path---events-event-2": [
+      "path---events-event-2-1db04e5021b40904aca6.js",
+      "path---events-event-2-1db04e5021b40904aca6.js.map"
+    ],
+    "path---events-event-3": [
+      "path---events-event-3-1db04e5021b40904aca6.js",
+      "path---events-event-3-1db04e5021b40904aca6.js.map"
+    ]
+  }
+}

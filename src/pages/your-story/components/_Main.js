@@ -13,18 +13,18 @@ const Main = ({ article, homework }) => {
   return (
     <div>
       <Helmet>
-        <title>{`The Greatest Story | Story Bangor`}</title>
+        <title>{`Your Story | Story Bangor`}</title>
         <meta
           name="description"
           content="Learn how to use the Firefox Debugger to find and fix bugs."
         />
 
         {/* Facebook Meta */}
-        <meta property="og:url" content="https://mozilladevelopers.github.io/playground/debugger" />
-        <meta property="og:title" content="Go beyond console.log!" />
+        <meta property="og:url" content="r" />
+        <meta property="og:title" content="Your Story | Story Bangor" />
         <meta
           property="og:description"
-          content="Still using console.log for debugging JavaScript? There is a better way! Learn how to use Firefox Debugger to debug and fix your code."
+          content=""
         />
         <meta property="og:image" content={facebook} />
 
@@ -32,10 +32,10 @@ const Main = ({ article, homework }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@firefox" />
         <meta name="twitter:creator" content="@firefox" />
-        <meta name="twitter:title" content="Go beyond console.log" />
+        <meta name="twitter:title" content="Your Story | Story Bangor" />
         <meta
           name="twitter:description"
-          content="Still using console.log for debugging JavaScript? There is a better way! Learn how to use Firefox Debugger to debug and fix your code."
+          content=""
         />
         <meta name="twitter:image" content="https://i.imgur.com/HQemmAf.png" />
       </Helmet>
