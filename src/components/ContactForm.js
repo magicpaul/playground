@@ -31,7 +31,7 @@ const encode = (data) => {
     render() {
       const { name, email, message } = this.state;
       return (
-        <form <form
+        <form
           name="contact"
           method="post"
           action="/thanks/"
