@@ -6,13 +6,13 @@ const pageData = [
   },
   {
     order: 2,
-    title: 'Event 1',
-    link: '/events/event-1',
+    title: 'Bangor\'s Story',
+    link: '/events/bangors-story',
   },
   {
     order: 3,
-    title: 'Event 2',
-    link: '/events/event-2',
+    title: 'Emma\'s Story',
+    link: '/events/emmas-story',
   },
   {
     order: 4,

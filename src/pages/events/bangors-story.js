@@ -5,7 +5,7 @@ import CodeBlock from '../../components/CodeBlock';
 import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
 import facebook from './img/story1/fb.png'
-import ResponsiveEmbed from 'react-responsive-embed'
+import abbey from './img/story1/bangor-abbey.jpg'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 const MyMapComponent = withScriptjs(withGoogleMap((props) =>
@@ -22,8 +22,10 @@ const PageMeta = () => (
             <Helmet>
               <meta name="description" content="description"
               />
+              <meta name="title" content="Event 1 | Story Bangor"
+              />
               <meta property="og:url" content="www.example.com" />
-              <meta property="og:title" content="Event 2 | Story Bangor" />
+              <meta property="og:title" content="Joe's Story | Story Bangor" />
               <meta
                 property="og:description"
                 content="description"
@@ -34,7 +36,7 @@ const PageMeta = () => (
               <meta name="twitter:card" content="summary_large_image" />
               <meta name="twitter:site" content="@story_bangor" />
               <meta name="twitter:creator" content="@story_bangor" />
-              <meta name="twitter:title" content="Event 2 Story Bangor" />
+              <meta name="twitter:title" content="Joe's Story | Story Bangor" />
               <meta
                 name="twitter:description"
                 content="description"
@@ -46,17 +48,25 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Event 2</h2>
-    <p>Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how to waltz. Big July earthquakes confound zany experimental vow.</p>
+    <h2>Bangor’s Story - Discover Our Heritage</h2>
+    <h3>Wednesday & Thursday 10am - Noon</h3>
+    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
+<img src={abbey} />
 
-<p>Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a pick: twenty six letters - no forcing a jumbled quiz! Crazy Fredericka bought many very exquisite opal jewels. Sixty zippers were quickly picked from the woven jute bag. A quick movement of the enemy will jeopardize six gunboats. All questions asked by five watch experts amazed the judge. Jack quietly moved up front and seized the big ball of wax. The quick, brown fox jumps over a lazy dog.</p>
+<h3>The Storytellers</h3>
 
-<p>DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my</p>
+<h4>Robert McKinley</h4>
+
+<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
+
+<h4>Glen Scrivener</h4>
+
+<p>Originally from Australia, Glen has lived in the UK for more than half his life. He’s often found speaking at churches and universities, in the studio creating online media, or in his office writing. Glen is married to Emma, and they have a daughter, Ruby.</p>
   </div>
 );
 
 const Homework = () => (
-<DevHomework title="Event Details">
+  <DevHomework title="Event Details">
     <MyMapComponent
       isMarkerShown
       googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
@@ -67,4 +77,4 @@ const Homework = () => (
   </DevHomework>
 );
 
-export default () => <Main currentPageNum={3} article={<Article />} homework={<Homework />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={2} article={<Article />} homework={<Homework />} pageMeta={<PageMeta />} />;
