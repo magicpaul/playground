@@ -42,7 +42,7 @@ const Main = ({ article, homework }) => {
 
       <Hero breadcrumb>
         <h3>Story Bangor</h3>
-        <h1>The Greatest Story</h1>
+        <h1>Your Story</h1>
       </Hero>
       <div className="main">
         <div className="container">

@@ -29,7 +29,7 @@ const encode = (data) => {
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-      const { name, email, message } = this.state;
+      const { name, email, phone, explore, follow } = this.state;
       return (
         <form
           name="contact"
@@ -51,11 +51,19 @@ const encode = (data) => {
           </p>
           <p>
             <label>
-              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+              Your Mobile Number: <input type="tel" name="phone" value={phone} onChange={this.handleChange} />
             </label>
           </p>
           <p>
-            <button type="submit">Send</button>
+            <label>
+              <input type="checkbox" name="explore" value={explore} onChange={this.handleChange} /> I’d like to EXPLORE more
+            </label>
+            <label>
+              <input type="checkbox" name="follow" value={follow} onChange={this.handleChange} /> I’d like to BEGIN following Jesus
+            </label>
+          </p>
+          <p>
+            <button type="submit" className="button--block">Send</button>
           </p>
         </form>
       );

@@ -11,7 +11,7 @@ const pageData = [
   },
   {
     order: 3,
-    title: 'Emma\'s Story',
+    title: 'Emma’s Story - Anorexia Loses Its Grip',
     link: '/events/emmas-story',
   },
   {

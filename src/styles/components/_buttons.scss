@@ -29,6 +29,7 @@ button,
   background: $primary;
   transition: all $base-time $base-ease;
   text-decoration: none;
+  color:white;
 
 
   &:active,
@@ -219,7 +220,6 @@ select {
 }
 
 label {
-  font-weight: 600;
   margin-bottom: $small-spacing / 2;
 
   &.required::after {
@@ -242,7 +242,6 @@ input,textarea {
   margin-bottom: $base-spacing / 2;
   padding: $base-spacing / 3;
   transition: border-color;
-  width: 100%;
 
   &:hover {
     border-color: darken($base-border-color, 10%);
@@ -253,6 +252,16 @@ input,textarea {
     box-shadow: $form-box-shadow-focus;
     outline: none;
   }
+}
+
+input[type="text"], input[type="tel"],input[type="email"], textarea
+{
+  width: 100%;
+}
+
+input[type="checkbox"]{
+  display: inline;
+  margin-right: 0.5em;
 }
 
 textarea {

@@ -19,7 +19,7 @@ const index = () => (
       <div className="container">
         <div className="col-md-6 col-md-offset-3 mt3">
           <p className="mb6">
-            Reaching Bangor with the greatest story ever told
+            Sharing great stories with the people of Bangor
           </p>
         </div>
       </div>

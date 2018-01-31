@@ -14,7 +14,9 @@
   img, iframe {
     margin-bottom: space(3);
   }
-
+  .padding-top{
+    padding-top: space(3);
+  }
   @include bp(medium) {
     @include span(8);
     padding-left: space(3);
