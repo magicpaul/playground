@@ -2,8 +2,8 @@ const pageData = [
   {
     order: 1,
     title: 'Introduction',
-    title: 'Introduction',
-    longlink: '/local-stories',
+    longtitle: 'Introduction',
+    link: '/local-stories',
   },
 /*  {
     order: 2,
