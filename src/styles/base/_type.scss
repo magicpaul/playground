@@ -64,9 +64,8 @@ h5,
 h1,
 .h1 {
   @include typesize(3);
-  font-family: 'Antonio', $sans-serif;
+  font-family: 'Megrim', $sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
   margin-bottom: space(2);
   line-height: $leading * 2;
 }
@@ -76,9 +75,8 @@ h2,
   @include typesize(2);
   margin-bottom: space(2);
   line-height: 2rem;
-  font-family: 'Antonio', $sans-serif;
+  font-family: 'Megrim', $sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
   border-bottom: 1px solid #eee;
   padding-bottom: space(5);
   margin-bottom: space(5);
@@ -87,9 +85,8 @@ h2,
 h3,
 .h3 {
   @include typesize(1);
-  font-family: 'Antonio', $sans-serif;
+  font-family: 'Megrim', $sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: space(1);
   line-height: $leading;
 }

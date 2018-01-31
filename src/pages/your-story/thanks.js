@@ -2,8 +2,10 @@ import React from 'react';
 import Main from './components/_Main';
 
 const Article = () => (
-  <div>
-    <p>Message sent! Someone will get back to you soon.</p>
+  <div className="thanks-block">
+    <p className="thanks">Message sent!</p>
+    <svg className="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle className="checkmark__circle" cx="26" cy="26" r="25" fill="none"></circle><path className="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"></path></svg>
+    <p className="thanks"><small>Someone will get back to you soon.</small></p>
   </div>
 );
 

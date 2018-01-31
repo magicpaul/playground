@@ -28,7 +28,7 @@ $breakpoints: (
 
 // Import Fonts
 // -------------------------
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
 
 // Type
 // -------------------------
@@ -37,7 +37,7 @@ $base-line-height   : 1.5;
 $base-font-color    : $black;
 $scale              : 1.333;
 $leading            : $base-line-height * 1rem;
-$sans-serif         : 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+$sans-serif         : 'Montserrat','Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 $serif              : 'Cambria', 'Georgia', 'serif';
 $mono               : 'Lucida Console', Monaco, monospace !default;
 $base-font-family   : $sans-serif;

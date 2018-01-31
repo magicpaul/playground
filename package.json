@@ -27,7 +27,8 @@
     "react-google-maps": "^9.4.5",
     "react-responsive-embed": "^2.1.0",
     "susy": "^3.0.1",
-    "typeface-antonio": "^1.0.0"
+    "typeface-antonio": "^1.0.0",
+    "typeface-megrim": "0.0.54"
   },
   "keywords": [
     "mozilla"

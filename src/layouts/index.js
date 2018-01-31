@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import 'typeface-antonio';
+import 'typeface-megrim';
 
 // images
 import faviconico from './img/favicon.ico';

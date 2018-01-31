@@ -56,10 +56,10 @@ const encode = (data) => {
           </p>
           <p>
             <label>
-              <input type="checkbox" name="explore" value={explore} onChange={this.handleChange} /> I’d like to EXPLORE more
+              <input type="checkbox" name="explore" /> I’d like to EXPLORE more
             </label>
             <label>
-              <input type="checkbox" name="follow" value={follow} onChange={this.handleChange} /> I’d like to BEGIN following Jesus
+              <input type="checkbox" name="follow" /> I’d like to BEGIN following Jesus
             </label>
           </p>
           <p>

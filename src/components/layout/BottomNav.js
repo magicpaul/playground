@@ -7,7 +7,7 @@ import Link from 'gatsby-link';
 const PreviousLink = ({ currentPageNum, pageData }) => {
   if (currentPageNum !== 1) {
     const previousPage = pageData.find(page => page.order === currentPageNum - 1);
-    const prevPageName = previousPage.title;
+    const prevPageName = previousPage.longtitle;
     const prevPageLink = previousPage.link;
     return (
       <div className="bottom-nav__item bottom-nav__item--left">
@@ -27,7 +27,7 @@ const PreviousLink = ({ currentPageNum, pageData }) => {
 const NextLink = ({ currentPageNum, pageData }) => {
   if (currentPageNum < pageData.length) {
     const NextPage = pageData.find(page => page.order === currentPageNum + 1);
-    const nextPageName = NextPage.title;
+    const nextPageName = NextPage.longtitle;
     const nextPageLink = NextPage.link;
     return (
       <div className="bottom-nav__item bottom-nav__item--right">
