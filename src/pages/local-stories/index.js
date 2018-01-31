@@ -34,7 +34,7 @@ const PageMeta = () => (
 );
 
 const Article = () => (
-  <div >
+  <div className="thanks-block">
     <h1>Coming Soon</h1>
   </div>
 );

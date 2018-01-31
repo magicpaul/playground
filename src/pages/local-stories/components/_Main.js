@@ -28,6 +28,28 @@ const Main = ({ currentPageNum, article, homework, pageMeta }) => {
       </Hero>
       <div className="main">
         <div className="container">
+          <div className="content-no-side">{article}</div>
+        </div>
+        {homework ? <div>{homework}</div> : ''}
+      </div>
+    </div>
+  );
+};
+/*const Main = ({ currentPageNum, article, homework, pageMeta }) => {
+  // Get current page data from data/pageData.js
+  const currentPageData = pageData.find(page => page.order === currentPageNum);
+  return (
+    <div>
+      <Helmet>
+        <title>{`Local Stories | Story Bangor`}</title>
+      </Helmet>
+      {pageMeta}
+      <Hero breadcrumb>
+        <h3>Story Bangor</h3>
+        <h1>Local Stories</h1>
+      </Hero>
+      <div className="main">
+        <div className="container">
           <Side currentPageNum={currentPageNum} pageData={pageData} />
           <div className="content">{article}</div>
         </div>
@@ -37,7 +59,7 @@ const Main = ({ currentPageNum, article, homework, pageMeta }) => {
     </div>
   );
 };
-
+*/
 Main.propTypes = {
   article: PropTypes.node.isRequired,
   homework: PropTypes.node,

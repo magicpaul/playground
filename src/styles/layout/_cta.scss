@@ -32,7 +32,6 @@
 
 .cta__text {
   @include typesize(3);
-  text-transform: uppercase;
   line-height: space(8);
   font-family: $header-alt;
   color: $white;
