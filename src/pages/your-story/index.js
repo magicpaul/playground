@@ -20,34 +20,26 @@ Let us know by filling in the form below and we will get in touch with you.</p>
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
+        <input type="hidden" name="form-name" value="contact" />
         <fieldset>
-          <p>
             <label>
               Your Name: <input type="text" name="name"/>
             </label>
-          </p>
-          <p>
             <label>
               Your Email: <input type="email" name="email"/>
             </label>
-          </p>
-          <p>
             <label>
               Your Mobile Number: <input type="tel" name="phone"/>
             </label>
-          </p>
-          <p>
             <label>
               <input type="checkbox" name="explore" /> I’d like to EXPLORE more
             </label>
             <label>
               <input type="checkbox" name="follow" /> I’d like to BEGIN following Jesus
             </label>
-          </p>
-          <p>
             <button type="submit" className="button--block">Send</button>
-          </p></fieldset>
-        </form>
+        </fieldset>
+    </form>
   </div>
 );
 
