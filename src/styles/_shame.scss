@@ -17,3 +17,13 @@
 .gallery {
   @include gallery(4 of 12);
 }
+
+.subscribe-form{
+    input[type="email"]{
+        width:90%;
+        float:left;
+    }
+    button[type="submit"]{
+        width:10%;
+    }
+}

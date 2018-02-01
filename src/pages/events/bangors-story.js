@@ -20,17 +20,17 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
 const PageMeta = () => (
         <div className="SEO">
             <Helmet>
-              <meta name="description" content="description"
+              <meta name="description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
               />
-              <meta name="title" content="Event 1 | Story Bangor"
+              <meta name="title" content="Bangor's Story | Story Bangor"
               />
               <meta property="og:url" content="www.example.com" />
-              <meta property="og:title" content="Joe's Story | Story Bangor" />
+              <meta property="og:title" content="Bangor's Story | Story Bangor" />
               <meta
                 property="og:description"
-                content="description"
+                content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
               />
-              <meta property="og:image" content={facebook} />
+              <meta property="og:image" content={abbey} />
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
@@ -39,9 +39,9 @@ const PageMeta = () => (
               <meta name="twitter:title" content="Joe's Story | Story Bangor" />
               <meta
                 name="twitter:description"
-                content="description"
+                content="dCome explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
               />
-              <meta name="twitter:image" content={facebook} />
+              <meta name="twitter:image" content={abbey} />
             </Helmet>
         </div>
 );
