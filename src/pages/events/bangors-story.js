@@ -33,14 +33,11 @@ const PageMeta = () => (
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@sstorybangorr" />
+              <meta name="twitter:site" content="@storybangor" />
               <meta name="twitter:creator" content="@storybangor" />
               <meta name="twitter:title" content="Bangor's Story | Story Bangor" />
-              <meta
-                name="twitter:description"
-                content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
-              />
-              <meta name="twitter:image" content={abbey} />
+              <meta name="twitter:description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide." />
+              <meta name="twitter:image" content={facebook} />
             </Helmet>
         </div>
 );
