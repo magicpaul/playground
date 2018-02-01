@@ -15,7 +15,7 @@ const index = () => (
   <div>
     <Hero>
       <img className="mb6" style={logoStyle} src={logo} alt="logo" />
-      <h1>Story Bangor</h1>
+      <h1>9th - 13th May 2018</h1>
       <div className="container">
         <div className="col-md-6 col-md-offset-3 mt3">
           <p className="mb6">

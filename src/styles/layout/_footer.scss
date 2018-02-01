@@ -5,7 +5,7 @@
 .footer {
   @include clearfix;
   padding: space(8);
-  background-color: #222;
+  background-color: darken($purple, 20%);
   color: $white;
 }
 

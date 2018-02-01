@@ -81,6 +81,9 @@
       color:$yellow;
     }
   }
+  .menu-item.social{
+    text-align: center;
+  }
   img{
     margin-bottom: 1em;
   }
@@ -92,3 +95,15 @@
   left:0;
   background: rgba(0, 0, 0, 0.3);
 }
+.icon{
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right:1em;
+  &:hover{
+    opacity: 0.7;
+  }
+}
+  .icon.last{
+    margin-right:0;
+  }
