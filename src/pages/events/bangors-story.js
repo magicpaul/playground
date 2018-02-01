@@ -4,7 +4,7 @@ import DevHomework from '../../components/layout/DevHomework';
 import CodeBlock from '../../components/CodeBlock';
 import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
-import facebook from './img/story1/bangor-abbey-fb.png'
+import facebook from './img/story1/bangor-abbey-fb.jpg'
 import abbey from './img/story1/bangor-abbey.jpg'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
@@ -24,21 +24,18 @@ const PageMeta = () => (
               />
               <meta name="title" content="Bangor's Story | Story Bangor"
               />
-              <meta property="og:url" content="www.example.com" />
+              <meta property="og:url" content="https://www.storybangor.com/events/bangors-story/" />
               <meta property="og:title" content="Bangor's Story | Story Bangor" />
-              <meta
-                property="og:description"
-                content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
-              />
-              <meta property="og:image" content={abbey} />
+              <meta property="og:description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide." />
+              <meta property="og:image" content={facebook} />
               <meta property="og:image:width" content="1200" />
               <meta property="og:image:height" content="630" />
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@story_bangor" />
-              <meta name="twitter:creator" content="@story_bangor" />
-              <meta name="twitter:title" content="Joe's Story | Story Bangor" />
+              <meta name="twitter:site" content="@sstorybangorr" />
+              <meta name="twitter:creator" content="@storybangor" />
+              <meta name="twitter:title" content="Bangor's Story | Story Bangor" />
               <meta
                 name="twitter:description"
                 content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."

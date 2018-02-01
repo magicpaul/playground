@@ -21,8 +21,8 @@ const PageMeta = () => (
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@story_bangor" />
-              <meta name="twitter:creator" content="@story_bangor" />
+              <meta name="twitter:site" content="@storybangor" />
+              <meta name="twitter:creator" content="@storybangor" />
               <meta name="twitter:title" content="Local Stories" />
               <meta
                 name="twitter:description"
