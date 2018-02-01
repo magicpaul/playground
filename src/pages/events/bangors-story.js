@@ -4,7 +4,7 @@ import DevHomework from '../../components/layout/DevHomework';
 import CodeBlock from '../../components/CodeBlock';
 import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
-import facebook from './img/story1/fb.png'
+import facebook from './img/story1/bangor-abbey-fb.png'
 import abbey from './img/story1/bangor-abbey.jpg'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
@@ -31,6 +31,8 @@ const PageMeta = () => (
                 content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
               />
               <meta property="og:image" content={abbey} />
+              <meta property="og:image:width" content="1200" />
+              <meta property="og:image:height" content="630" />
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
@@ -39,7 +41,7 @@ const PageMeta = () => (
               <meta name="twitter:title" content="Joe's Story | Story Bangor" />
               <meta
                 name="twitter:description"
-                content="dCome explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
+                content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
               />
               <meta name="twitter:image" content={abbey} />
             </Helmet>
