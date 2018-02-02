@@ -31,6 +31,10 @@
   padding-bottom: space(6);
   overflow-y: scroll;
 
+  .padding-top{
+    padding-top: space(3);
+  }
+
   img, iframe {
     margin-bottom: space(3);
   }

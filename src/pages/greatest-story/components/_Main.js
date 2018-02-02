@@ -3,41 +3,44 @@ import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 
 // images
-import facebook from './img/fb.png';
+import ShareImage from './img/fb.png';
 
 // Components
 import Hero from '../../../components/layout/Hero';
 
+
 const Main = ({ article, homework }) => {
   // Get current page data from data/pageData.js
+  let ShareImageURL
+  ShareImageURL = "https://www.storybangor.com/" + ShareImage
   return (
     <div>
       <Helmet>
         <title>{`The Greatest Story | Story Bangor`}</title>
         <meta
           name="description"
-          content="Learn how to use the Firefox Debugger to find and fix bugs."
+          content="Hear the Greatest Story Ever Told, in under 90 seconds!"
         />
 
         {/* Facebook Meta */}
-        <meta property="og:url" content="https://mozilladevelopers.github.io/playground/debugger" />
-        <meta property="og:title" content="Go beyond console.log!" />
+        <meta property="og:url" content="https://www.storybangor.com/greatest-story/" />
+        <meta property="og:title" content="The Greatest Story | Story Bangor" />
         <meta
           property="og:description"
-          content="Still using console.log for debugging JavaScript? There is a better way! Learn how to use Firefox Debugger to debug and fix your code."
+          content="Hear the Greatest Story Ever Told, in under 90 seconds!"
         />
-        <meta property="og:image" content={facebook} />
+        <meta property="og:image" content={ShareImageURL} />
 
         {/* Twitter Meta */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@firefox" />
-        <meta name="twitter:creator" content="@firefox" />
-        <meta name="twitter:title" content="Go beyond console.log" />
+        <meta name="twitter:site" content="@storybangor" />
+        <meta name="twitter:creator" content="@storybangor" />
+        <meta name="twitter:title" content="The Greatest Story | Story Bangor" />
         <meta
           name="twitter:description"
-          content="Still using console.log for debugging JavaScript? There is a better way! Learn how to use Firefox Debugger to debug and fix your code."
+          content="Hear the Greatest Story Ever Told, in under 90 seconds!"
         />
-        <meta name="twitter:image" content="https://i.imgur.com/HQemmAf.png" />
+        <meta name="twitter:image" content={ShareImageURL} />
       </Helmet>
 
       <Hero breadcrumb>
