@@ -4,31 +4,59 @@ import DevHomework from '../../components/layout/DevHomework';
 import CodeBlock from '../../components/CodeBlock';
 import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
-import facebook from './img/story1/fb.png'
+import ShareImage from './img/emma/emma-fb.png'
 
+const image =  "https://www.storybangor.com" + ShareImage;
+const schema = [
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Emma’s Story - Anorexia Loses Its Grip",
+  "startDate": "2018-05-09T20:00",
+  "location": {
+    "@type": "Place",
+    "name": "Hamilton Road Presbyterian Church",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Prospect Road",
+      "addressLocality": "Bangor",
+      "postalCode": "BT20 4LN",
+      "addressCountry": "UK"
+    }
+  },
+  "image":{image},
+  "description": "‘My version of repentance had no room for kindness,’ admits Emma. ‘It said, “Pull yourself together. Try harder. Do more… Fix your own mistakes or face the consequences…” But real repentance looks very different. It’s the product of God’s kindness, undeserved and poured out without limit.’ Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen.",
+  "performer": {
+    "@type": "Person",
+    "name": ["Emma Scrivener","Glen Scrivener"]
+    }
+}
+]
 const PageMeta = () => (
         <div className="SEO">
+
             <Helmet>
-              <meta name="description" content="description"
+              <meta name="description" content="‘My version of repentance had no room for kindness,’ admits Emma. ‘It said, “Pull yourself together. Try harder. Do more… Fix your own mistakes or face the consequences…” But real repentance looks very different. It’s the product of God’s kindness, undeserved and poured out without limit.’ Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen."
               />
-              <meta property="og:url" content="www.example.com" />
-              <meta property="og:title" content="Event 2 | Story Bangor" />
-              <meta
-                property="og:description"
-                content="description"
+              <meta name="title" content="Emma’s Story | Story Bangor"
               />
-              <meta property="og:image" content={facebook} />
+              <meta property="og:url" content="https://www.storybangor.com/events/emmas-story/" />
+              <meta property="og:title" content="Emma’s Story | Story Bangor" />
+              <meta property="og:description" content="‘My version of repentance had no room for kindness,’ admits Emma. ‘It said, “Pull yourself together. Try harder. Do more… Fix your own mistakes or face the consequences…” But real repentance looks very different. It’s the product of God’s kindness, undeserved and poured out without limit.’ Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen." />
+              <meta property="og:image" content={image} />
+              <meta property="og:image:width" content="1200" />
+              <meta property="og:image:height" content="630" />
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@story_bangor" />
-              <meta name="twitter:creator" content="@story_bangor" />
-              <meta name="twitter:title" content="Event 2 Story Bangor" />
-              <meta
-                name="twitter:description"
-                content="description"
-              />
-              <meta name="twitter:image" content={facebook} />
+              <meta name="twitter:site" content="@storybangor" />
+              <meta name="twitter:creator" content="@storybangor" />
+              <meta name="twitter:title" content="Emma’s Story | Story Bangor" />
+              <meta name="twitter:description" content="‘My version of repentance had no room for kindness,’ admits Emma. ‘It said, “Pull yourself together. Try harder. Do more… Fix your own mistakes or face the consequences…” But real repentance looks very different. It’s the product of God’s kindness, undeserved and poured out without limit.’ Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen." />
+              <meta name="twitter:image" content={image} />
+              <script type="application/ld+json">
+                {JSON.stringify(schema)}
+              </script>
             </Helmet>
         </div>
 );
@@ -41,7 +69,7 @@ const Article = () => (
 <p>&lsquo;My version of repentance had no room for kindness,&rsquo; admits Emma. &lsquo;It said, &ldquo;Pull yourself together. Try harder. Do more… Fix your own mistakes or face the consequences…&rdquo; But real repentance looks very different. It’s the product of God’s kindness, undeserved and poured out without limit.&rsquo;</p>
 
 <p>Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen.</p>
-
+<img src={ShareImage} alt="Emma" />
 <h3>The Storytellers</h3>
 
 <h4>Emma Scrivener</h4>
