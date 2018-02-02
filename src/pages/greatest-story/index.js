@@ -7,11 +7,32 @@ import ResponsiveEmbed from 'react-responsive-embed'
 const Article = () => (
   <div>
   <ResponsiveEmbed src="https://player.vimeo.com/video/253671047?byline=0&portrait=0" allowFullScreen/>
-    <p className="padding-top">Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how to waltz. Big July earthquakes confound zany experimental vow.</p>
+    <p className="padding-top">The Greatest Story Ever Told begins in <strong>light</strong> and <strong>life</strong> and  <strong>love</strong>.</p>
+    <p>There's always been a Father<br/>loving His son, Jesus,<br/>in the joy of the Holy Sprit<br/>
+    and you think, &ldquo;How wonderful that the story begins like that,<em> but that's not the world that we see.</em>&rdquo;</p>
 
-<p>Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a pick: twenty six letters - no forcing a jumbled quiz! Crazy Fredericka bought many very exquisite opal jewels. Sixty zippers were quickly picked from the woven jute bag. A quick movement of the enemy will jeopardize six gunboats. All questions asked by five watch experts amazed the judge. Jack quietly moved up front and seized the big ball of wax. The quick, brown fox jumps over a lazy dog.</p>
+<p>Well exactly, this is not the world that we see.</p>
 
-<p>DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my</p>
+<p>The world that we see if full of <strong>darkness</strong> and <strong>death</strong> and <strong>disconnection</strong>. So what&rsquo;s happened?</p>
+
+<p>What&rsquo;s happened is we have turned from God.<br/>
+    And when you turn from <strong>light</strong> where else do you go but <strong>darkness</strong>?<br/>
+    When you turn from <strong>life</strong> where else do you go but <strong>death</strong>?<br/>
+    When you turn from <strong>love</strong> where else do you go but <strong>disconnection</strong>?<br/>
+    And that&rsquo;s why we walk through this valley of the shadow of death, because we have turned from God.</p>
+    <p>But what does the God of <strong>light</strong> and <strong>life</strong> and  <strong>love</strong> do when he sees his beloved creatures perishing in the wilderness? He does what <strong>love does.</strong></p>
+    <p>Love says your <strong>pit</strong> will be my <strong>pit</strong>,
+    <br/>your <strong>death</strong> will be my <strong>death</strong>,
+    <br/>your <strong>darkness</strong> will be my <strong>darkness</strong>,
+    <br/>your <strong>disconnection</strong> will be my <strong>disconnection</strong>.</p>
+    <p>And so the Son of the Father, Jesus, comes as our brother. At Christmas he is <strong>born into the darkness</strong> that we experience. He <strong>walks through the valley of the shadow</strong> with us. And on that cross he <strong>takes our darkness and death and disconnection</strong>. He takes it down to the hellish death that it deserves, and he <strong>and he rises up again to say:</strong></p>
+    <p>I&rsquo;ve taken your <strong>darkness</strong>, do you want my <strong>light</strong>?<br/>
+    I&rsquo;ve taken your <strong>disconnection</strong>, do you want my <strong>love</strong>?<br/>
+    I&rsquo;ve taken your <strong>death</strong>, do you want my <strong>life</strong>?<br/>
+    </p>
+    <p>And for anyone who says &ldquo;Yes&rdquo;, Jesus comes into their life. He gives them His Father as their father, His Spirit as their spirit, and His future as their future. Jesus invites us into the <strong>happily ever after</strong>.
+    </p>
+    <p>That is the <strong>Greatest Story Ever Told</strong>.</p>
   </div>
 );
 
