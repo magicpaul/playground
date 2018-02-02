@@ -35,16 +35,14 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
-    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
-<img src={abbey} />
+    <h2>The Amazing Story - Family Event</h2>
+    <h3>Saturday 3:30pm – 5:15pm – Hamilton Road Presbyterian Church</h3>
+    <p>Join us for a very special afternoon as family entertainer Brian Mitchell shares some stories in surprising and amazing ways. Mums, dads and other adults will have the opportunity to hear an engaging talk from Glen Scrivener, while Brian continues sharing his skills with the boys and girls. This event is suitable for all ages and refreshments will be served during the afternoon.</p>
 
 <h3>The Storytellers</h3>
 
-<h4>Robert McKinley</h4>
-
-<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
+<h4>Brian Mitchell</h4>
+<p>Brian has been a Family Entertainer for over 25 years. Funny, entertaining and informative, Brian is based in central Scotland but has performed throughout the UK in a variety of places, including the Edinburgh Festival.</p>
 
 <h4>Glen Scrivener</h4>
 
@@ -52,4 +50,4 @@ const Article = () => (
   </div>
 );
 
-export default () => <Main currentPageNum={2} article={<Article />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={9} article={<Article />} pageMeta={<PageMeta />} />;

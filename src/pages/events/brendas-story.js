@@ -35,16 +35,14 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
-    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
-<img src={abbey} />
+    <h2>Brenda’s Story - Tracing The Rainbow Through The Rain</h2>
+    <h3>Friday 8pm - Lisnabreen Presbyterian Church</h3>
+    <p>“I warned you Brenda, that’s what you get for dating a soldier – heartache. A life of heartache.”<br/>Come and hear Brenda Hale’s truly heartbreaking, yet ultimately hopeful, story and an encouraging talk by Glen Scrivener.</p>
 
 <h3>The Storytellers</h3>
 
-<h4>Robert McKinley</h4>
-
-<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
+<h4>Brenda Hale</h4>
+<p>Brenda grew up in Bangor and married Mark Hale, a British Army soldier. They were together for 22 years. Tragically, Mark died in Camp Bastion, Afghanistan, on 13th August 2009, leaving Brenda and their daughters Tori and Alex in a state of unimaginable grief. Mark’s loss was to become a major catalyst in Brenda’s decision to pursue a political career, a central objective of which is to fight for a better deal for the families of those servicemen and women who have paid the ultimate price for their country.</p>
 
 <h4>Glen Scrivener</h4>
 
@@ -52,4 +50,4 @@ const Article = () => (
   </div>
 );
 
-export default () => <Main currentPageNum={2} article={<Article />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={7} article={<Article />} pageMeta={<PageMeta />} />;

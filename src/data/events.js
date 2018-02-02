@@ -19,9 +19,51 @@ const pageData = [
   },
   {
     order: 4,
-    title: 'Event 3',
-    link: '/events/event-3',
-    longtitle: 'Event Three',
+    title: 'Hope When It Hurts',
+    link: '/events/hope-when-it-hurts',
+    longtitle: 'Hope When It Hurts - Women’s Event',
+  },
+  {
+    order: 5,
+    title: 'James’ Story',
+    link: '/events/james-story',
+    longtitle: 'James’ Story - When Life Throws A Curve Ball ',
+  },
+  {
+    order: 6,
+    title: 'Raymond’s Story',
+    link: '/events/raymonds-story',
+    longtitle: 'Raymond’s Story - Travel Is My Business',
+  },
+  {
+    order: 7,
+    title: 'Brenda’s Story',
+    link: '/events/brendas-story',
+    longtitle: 'Brenda’s Story - Tracing The Rainbow Through The Rain',
+  },
+  {
+    order: 8,
+    title: 'The Story That Changes',
+    link: '/events/the-story-that-changes',
+    longtitle: 'The Story That Changes - Youth Event',
+  },
+  {
+    order: 9,
+    title: 'The Amazing Story',
+    link: '/events/the-amazing-story',
+    longtitle: 'The Amazing Story - Family Event',
+  },
+  {
+    order: 10,
+    title: 'The Thief’s Story',
+    link: '/events/the-thiefs-story',
+    longtitle: 'The Thief’s Story',
+  },
+  {
+    order: 11,
+    title: 'The Greatest Story',
+    link: '/events/the-greatest-story',
+    longtitle: 'The Greatest Story Ever Told',
   },
 ];
 

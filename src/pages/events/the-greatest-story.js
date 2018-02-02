@@ -35,16 +35,11 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
-    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
-<img src={abbey} />
+    <h2>The Greatest Story Ever Told</h2>
+    <h3>Hamilton Road Baptist Church at 10:30am</h3><h3>Hamilton Road Presbyterian Church at 11am & 6:30pm. </h3>
+    <p>Join us at Hamilton Road Baptist or Hamilton Road Presbyterian Church and hear Glen Scrivener speak about The Greatest Story Ever Told.</p>
 
-<h3>The Storytellers</h3>
-
-<h4>Robert McKinley</h4>
-
-<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
+<h3>The Storyteller</h3>
 
 <h4>Glen Scrivener</h4>
 
@@ -52,4 +47,4 @@ const Article = () => (
   </div>
 );
 
-export default () => <Main currentPageNum={2} article={<Article />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={11} article={<Article />} pageMeta={<PageMeta />} />;

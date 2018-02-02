@@ -35,21 +35,11 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
-    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
-<img src={abbey} />
-
-<h3>The Storytellers</h3>
-
-<h4>Robert McKinley</h4>
-
-<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
-
-<h4>Glen Scrivener</h4>
-
-<p>Originally from Australia, Glen has lived in the UK for more than half his life. He’s often found speaking at churches and universities, in the studio creating online media, or in his office writing. Glen is married to Emma, and they have a daughter, Ruby.</p>
+    <h2>The Story That Changes - Youth Event</h2>
+    <h3>Friday 8pm - Hamilton Road Baptist Church</h3>
+    <p>The story doesn’t change but the story changes lives.</p>
+    <p>An evening of stories, food, music, games - and the opportunity to hear the story that doesn’t change - but changes lives.</p>
   </div>
 );
 
-export default () => <Main currentPageNum={2} article={<Article />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={8} article={<Article />} pageMeta={<PageMeta />} />;

@@ -35,16 +35,15 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
-    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
-<img src={abbey} />
+    <h2>James’ Story - When Life Throws A Curve Ball </h2>
+    <h3>Thursday - 8pm - St Andrew's Presbyterian Church</h3>
+    <p>A hospital bed instead of a headmaster’s study – how could this ever be God’s best for anyone’s life? Come and hear James Shone’s courageous story, followed by a hope-filled talk by Glen Scrivener. </p>
 
 <h3>The Storytellers</h3>
 
-<h4>Robert McKinley</h4>
+<h4>James Shone</h4>
 
-<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
+<p>Following a 16-year career in boarding schools, and as a housemaster for most of that time, James was appointed headmaster to Monkton Prep School in 2012. But disaster struck. During his medical assessment a brain tumour was discovered. Over the following months he underwent two massive operations, spending 11 weeks in hospital. The operations saved his life, but robbed him of most of his sight. Consequently, he had to relinquish a dream job, undergo radiotherapy and embark on a new and very different future, devoid of employment or buoyant health.</p>
 
 <h4>Glen Scrivener</h4>
 
@@ -52,4 +51,4 @@ const Article = () => (
   </div>
 );
 
-export default () => <Main currentPageNum={2} article={<Article />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={5} article={<Article />} pageMeta={<PageMeta />} />;

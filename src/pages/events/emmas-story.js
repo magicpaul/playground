@@ -5,17 +5,6 @@ import CodeBlock from '../../components/CodeBlock';
 import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
 import facebook from './img/story1/fb.png'
-import ResponsiveEmbed from 'react-responsive-embed'
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
-
-const MyMapComponent = withScriptjs(withGoogleMap((props) =>
-  <GoogleMap
-    defaultZoom={17}
-    defaultCenter={{ lat: 54.6614468, lng: -5.6615525 }}
-  >
-    {props.isMarkerShown && <Marker position={{ lat: 54.6614468, lng: -5.6615525 }} />}
-  </GoogleMap>
-))
 
 const PageMeta = () => (
         <div className="SEO">
@@ -65,16 +54,4 @@ const Article = () => (
   </div>
 );
 
-const Homework = () => (
-<DevHomework title="Event Details">
-    <MyMapComponent
-      isMarkerShown
-      googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-      loadingElement={<div style={{ height: `100%` }} />}
-      containerElement={<div style={{ height: `400px` }} />}
-      mapElement={<div style={{ height: `100%` }} />}
-    />
-  </DevHomework>
-);
-
-export default () => <Main currentPageNum={3} article={<Article />} homework={<Homework />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={3} article={<Article />} pageMeta={<PageMeta />} />;

@@ -45,7 +45,7 @@
 .bottom-nav__title {
   @include typesize(1);
   display: block;
-  font-family: 'Antonio', $sans-serif;
+  font-family: $sans-serif;
   text-transform: uppercase;
   transition: border-bottom .2s ease;
   border-bottom: 2px solid transparent;
@@ -55,6 +55,6 @@
   }
 
   @include bp(medium) {
-    @include typesize(2);
+    @include typesize(1);
   }
 }

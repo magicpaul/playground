@@ -1,10 +1,9 @@
 import React from 'react';
 import Main from './components/_Main';
-import DevHomework from '../../components/layout/DevHomework';
-import DownloadLink from '../../components/DownloadLink';
-import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
 import facebook from './img/story1/fb.png'
+import Link from 'gatsby-link';
+
 
 const PageMeta = () => (
         <div className="SEO">
@@ -35,19 +34,58 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Story Bangor Events</h2>
-    <p>Amazingly few discotheques provide jukeboxes. My girl wove six dozen plaid jackets before she quit. Six big devils from Japan quickly forgot how to waltz. Big July earthquakes confound zany experimental vow.</p>
+    <h3><Link to="/events/bangors-story/">Bangor's Story - Discover Our Heritage</Link></h3>
+    <p>Wednesday 9th & Thursday 10th May<br/>
+    10am - Noon<br/>
+    Coach tour begins and ends at Hamilton Road Presbyterian </p>
 
-<p>Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a pick: twenty six letters - no forcing a jumbled quiz! Crazy Fredericka bought many very exquisite opal jewels. Sixty zippers were quickly picked from the woven jute bag. A quick movement of the enemy will jeopardize six gunboats. All questions asked by five watch experts amazed the judge. Jack quietly moved up front and seized the big ball of wax. The quick, brown fox jumps over a lazy dog.</p>
+    <h3><Link to="/events/emmas-story">Emma’s Story – Anorexia Loses Its Grip</Link></h3>
+    <p>Wednesday 9th May <br/>
+    8pm <br/>
+    Hamilton Road Presbyterian Church</p>
 
-<p>DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my</p>
+
+    <h3><Link to="/events/hope-when-it-hurts">Hope When It Hurts - Women's Event</Link></h3>
+    <p>Thursday 10th May <br/>
+    9:30am <br/>
+    Hamilton Road Baptist Church</p>
+
+    <h3><Link to="/events/james-story">James’s Story – When Life Throws a Curve Ball </Link></h3>
+    <p>Thursday 10th May<br/>
+    8pm <br/>
+    St Andrew's Presbyterian Church</p>
+
+
+    <h3><Link to="/events/raymonds-story">Raymond’s Story - Travel Is My Business</Link></h3>
+    <p>Friday 11th May <br/>
+    7:30-9am <br/>
+    Coffee Cure @ The Heritage Centre</p>
+
+    <h3><Link to="/events/brendas-story">Brenda’s Story – Tracing the Rainbow Through the Rain</Link></h3>
+    <p>Friday 11th May <br/>
+    8pm <br/>
+    Lisnabreen Presbyterian Church </p>
+
+    <h3><Link to="/events/the-story-that-changes">The Story That Changes - Youth Event</Link></h3>
+    <p>Friday 11th May <br/>
+    8pm <br/>
+    Hamilton Road Baptist Church </p>
+
+    <h3><Link to="/events/the-amazing-story">The Amazing Story  – Family Event</Link></h3>
+    <p>Saturday 12th May <br/>
+    3:30pm – 5:15pm <br/>
+    Hamilton Road Presbyterian Church</p>
+
+    <h3><Link to="/events/the-thiefs-story">The Thief’s Story</Link></h3>
+    <p>Saturday 12th May <br/>
+    8pm <br/>
+    Hamilton Road Baptist Church</p>
+
+    <h3><Link to="/events/the-greatest-story">The Greatest Story Ever Told</Link></h3>
+    <p>Sunday 13th May<br/>
+    Hamilton Road Baptist Church at 10:30am <br/>
+    Hamilton Road Presbyterian Church at 11am & 6:30pm.</p>
   </div>
 );
 
-const Homework = () => (
-  <DevHomework title="Find out more">
-    <p>Foxy parsons quiz and cajole the lovably dim wiki-girl. Have a pick: twenty six letters - no forcing a jumbled quiz! Crazy Fredericka bought many very exquisite opal jewels. Sixty zippers were quickly picked from the woven jute bag. A quick movement of the enemy will jeopardize six gunboats. All questions asked by five watch experts amazed the judge. Jack quietly moved up front and seized the big ball of wax. The quick, brown fox jumps over a lazy dog.</p>
-  </DevHomework>
-);
-
-export default () => <Main currentPageNum={1} article={<Article />} homework={<Homework />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={1} article={<Article />} pageMeta={<PageMeta />} />;

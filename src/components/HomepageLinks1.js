@@ -13,13 +13,13 @@ const HomePageLinks = () => (
       <HomepageItem
         photo={eventsPhoto}
         title="Events"
-        desc="Some call to action text here"
+        desc="Check out what’s happening"
         link="/events"
       />
       <HomepageItem
         photo={localstoriesPhoto}
         title="Local Stories"
-        desc="Some call to action text here"
+        desc="Hear some great local stories"
         link="/local-stories"
       />
     </div>

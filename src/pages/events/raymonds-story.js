@@ -35,16 +35,15 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
-    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
-<img src={abbey} />
+    <h2>Raymond’s Story - Travel Is My Business</h2>
+    <h3>Friday - 7:30-9am - Coffee Cure @ The Heritage Centre</h3>
+    <p>Enjoy a Coffee Cure breakfast and the opportunity to hear local businessman Raymond Parker’s story and a stimulating talk from Glen Scrivener.</p>
 
 <h3>The Storytellers</h3>
 
-<h4>Robert McKinley</h4>
+<h4>Raymond Parker</h4>
 
-<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
+<p>Raymond is the owner and Managing Director of Feherty Travel. He has over 45 years’ experience in the travel Industry and has travelled extensively throughout the world. Raymond has much wisdom to share on running a successful business and living a full life.</p>
 
 <h4>Glen Scrivener</h4>
 
@@ -52,4 +51,4 @@ const Article = () => (
   </div>
 );
 
-export default () => <Main currentPageNum={2} article={<Article />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={6} article={<Article />} pageMeta={<PageMeta />} />;

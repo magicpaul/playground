@@ -35,16 +35,14 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
-    <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
-<img src={abbey} />
+    <h2>The Thief’s Story</h2>
+    <h3>Saturday 8pm - Hamilton Road Baptist Church </h3>
+    <p>Come and watch Marty Gray perform the one-man play: Heaven, How I Got Here, which tells the story of a thief who died beside Jesus, and hear this story explained by Glen Scrivener. Doors open at 7:30pm.</p>
 
 <h3>The Storytellers</h3>
 
-<h4>Robert McKinley</h4>
-
-<p>Robert is a Bangor man and was formerly Head of History in a Belfast secondary school. He is currently President of Bangor Historical Society. Robert is particularly interested in local and military history.</p>
+<h4>Marty Gray</h4>
+<p>Marty grew up in Bangor and, as a child, attended McMaster’s Stage School. He was involved in drama at Bangor Grammar School and in his teens performed with the National Youth Theatre in London. Marty is married to Emma and they have two boys.</p>
 
 <h4>Glen Scrivener</h4>
 
@@ -52,4 +50,4 @@ const Article = () => (
   </div>
 );
 
-export default () => <Main currentPageNum={2} article={<Article />} pageMeta={<PageMeta />} />;
+export default () => <Main currentPageNum={10} article={<Article />} pageMeta={<PageMeta />} />;
