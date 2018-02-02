@@ -8,13 +8,13 @@ import Link from 'gatsby-link';
 const PageMeta = () => (
         <div className="SEO">
             <Helmet>
-              <meta name="description" content="description"
+              <meta name="description" content="Check out what’s happening"
               />
-              <meta property="og:url" content="www.example.com" />
+              <meta property="og:url" content="https://www.storybangor.com/events" />
               <meta property="og:title" content="Local Stories" />
               <meta
                 property="og:description"
-                content="description"
+                content="Check out what’s happening"
               />
               <meta property="og:image" content={facebook} />
 
@@ -25,7 +25,7 @@ const PageMeta = () => (
               <meta name="twitter:title" content="Local Stories" />
               <meta
                 name="twitter:description"
-                content="description"
+                content="Check out what’s happening"
               />
               <meta name="twitter:image" content={facebook} />
             </Helmet>

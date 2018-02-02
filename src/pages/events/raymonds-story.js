@@ -1,24 +1,47 @@
 import React from 'react';
 import Main from './components/_Main';
-import DevHomework from '../../components/layout/DevHomework';
-import CodeBlock from '../../components/CodeBlock';
-import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
-import facebook from './img/story1/bangor-abbey-fb.jpg'
-import abbey from './img/story1/bangor-abbey.jpg'
+import ShareImage from './img/raymond/fb1.png'
 
-
+const image =  "https://www.storybangor.com" + ShareImage;
+const schema = [
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Raymond’s Story - Travel Is My Business",
+  "startDate": "2018-05-11T07:30",
+  "location": {
+    "@type": "Place",
+    "name": "Coffee Cure at the Museum",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Town Hall, The Castle",
+      "addressLocality": "Bangor",
+      "postalCode": "BT20 4BT",
+      "addressCountry": "UK"
+    }
+  },
+  image,
+  "description": "Enjoy a Coffee Cure breakfast and the opportunity to hear local businessman Raymond Parker’s story and a stimulating talk from Glen Scrivener.",
+  "endDate": "2018-05-11T09:00",
+  "performer": {
+    "@type": "Person",
+    "name": ["Raymond Parker","Glen Scrivener"]
+    }
+}
+]
 const PageMeta = () => (
         <div className="SEO">
+
             <Helmet>
-              <meta name="description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
+              <meta name="description" content="Enjoy a Coffee Cure breakfast and the opportunity to hear local businessman Raymond Parker’s story and a stimulating talk from Glen Scrivener."
               />
-              <meta name="title" content="Bangor's Story | Story Bangor"
+              <title>Raymond’s Story - Travel Is My Business | Story Bangor</title>
               />
-              <meta property="og:url" content="https://www.storybangor.com/events/bangors-story/" />
-              <meta property="og:title" content="Bangor's Story | Story Bangor" />
-              <meta property="og:description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide." />
-              <meta property="og:image" content={facebook} />
+              <meta property="og:url" content="https://www.storybangor.com/events/raymonds-story/" />
+              <meta property="og:title" content="Raymond’s Story - Travel Is My Business | Story Bangor" />
+              <meta property="og:description" content="Enjoy a Coffee Cure breakfast and the opportunity to hear local businessman Raymond Parker’s story and a stimulating talk from Glen Scrivener." />
+              <meta property="og:image" content={image} />
               <meta property="og:image:width" content="1200" />
               <meta property="og:image:height" content="630" />
 
@@ -26,9 +49,12 @@ const PageMeta = () => (
               <meta name="twitter:card" content="summary_large_image" />
               <meta name="twitter:site" content="@storybangor" />
               <meta name="twitter:creator" content="@storybangor" />
-              <meta name="twitter:title" content="Bangor's Story | Story Bangor" />
-              <meta name="twitter:description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide." />
-              <meta name="twitter:image" content={facebook} />
+              <meta name="twitter:title" content="Raymond’s Story - Travel Is My Business | Story Bangor" />
+              <meta name="twitter:description" content="Enjoy a Coffee Cure breakfast and the opportunity to hear local businessman Raymond Parker’s story and a stimulating talk from Glen Scrivener." />
+              <meta name="twitter:image" content={image} />
+              <script type="application/ld+json">
+                {JSON.stringify(schema)}
+              </script>
             </Helmet>
         </div>
 );

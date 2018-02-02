@@ -1,34 +1,55 @@
 import React from 'react';
 import Main from './components/_Main';
-import DevHomework from '../../components/layout/DevHomework';
-import CodeBlock from '../../components/CodeBlock';
-import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
-import facebook from './img/story1/fb.png'
+import ShareImage from './img/hope/fb1.png'
 
+const image =  "https://www.storybangor.com" + ShareImage;
+const schema = [
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Hope When It Hurts - Women’s Event",
+    "startDate": "2018-05-10T09:30",
+    "location": {
+      "@type": "Place",
+      "name": "Hamilton Road Baptist Church",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "112 Hamilton Rd",
+        "addressLocality": "Bangor",
+        "postalCode": "BT20 4LQ",
+        "addressCountry": "UK"
+      }
+    },
+    image,
+    "description": "Women of all ages and stages are invited to Hamilton Road Baptist Church to enjoy coffee and treats, and hear how one woman found great hope in the midst of experiencing some of life's deep hurts.",
+  }
+]
 const PageMeta = () => (
         <div className="SEO">
+
             <Helmet>
-              <meta name="description" content="description"
+              <meta name="description" content="Women of all ages and stages are invited to Hamilton Road Baptist Church to enjoy coffee and treats, and hear how one woman found great hope in the midst of experiencing some of life's deep hurts."
               />
-              <meta property="og:url" content="www.example.com" />
-              <meta property="og:title" content="Event 3" />
-              <meta
-                property="og:description"
-                content="description"
+              <title>Hope When It Hurts - Women’s Event | Story Bangor</title>
               />
-              <meta property="og:image" content={facebook} />
+              <meta property="og:url" content="https://www.storybangor.com/events/hope-when-it-hurts/" />
+              <meta property="og:title" content="Hope When It Hurts - Women’s Event | Story Bangor" />
+              <meta property="og:description" content="Women of all ages and stages are invited to Hamilton Road Baptist Church to enjoy coffee and treats, and hear how one woman found great hope in the midst of experiencing some of life's deep hurts." />
+              <meta property="og:image" content={image} />
+              <meta property="og:image:width" content="1200" />
+              <meta property="og:image:height" content="630" />
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
               <meta name="twitter:site" content="@storybangor" />
               <meta name="twitter:creator" content="@storybangor" />
-              <meta name="twitter:title" content="Event 3" />
-              <meta
-                name="twitter:description"
-                content="description"
-              />
-              <meta name="twitter:image" content={facebook} />
+              <meta name="twitter:title" content="Hope When It Hurts - Women’s Event | Story Bangor" />
+              <meta name="twitter:description" content="Women of all ages and stages are invited to Hamilton Road Baptist Church to enjoy coffee and treats, and hear how one woman found great hope in the midst of experiencing some of life's deep hurts." />
+              <meta name="twitter:image" content={image} />
+              <script type="application/ld+json">
+                {JSON.stringify(schema)}
+              </script>
             </Helmet>
         </div>
 );

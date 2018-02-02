@@ -23,7 +23,7 @@ const schema = [
       "addressCountry": "UK"
     }
   },
-  "image":"https://www.storybangor.com/static/bangor-abbey-fb.54c28765.jpg",
+  image,
   "description": "Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.",
   "endDate": "2018-05-09T12:00",
   "performer": {
@@ -47,7 +47,7 @@ const schema = [
       "addressCountry": "UK"
     }
   },
-  "image":"https://www.storybangor.com/static/bangor-abbey-fb.54c28765.jpg",
+  image,
   "description": "Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.",
   "endDate": "2018-05-10T12:00",
   "performer": {

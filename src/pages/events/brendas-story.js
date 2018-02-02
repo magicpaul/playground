@@ -1,24 +1,46 @@
 import React from 'react';
 import Main from './components/_Main';
-import DevHomework from '../../components/layout/DevHomework';
-import CodeBlock from '../../components/CodeBlock';
-import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
-import facebook from './img/story1/bangor-abbey-fb.jpg'
-import abbey from './img/story1/bangor-abbey.jpg'
+import ShareImage from './img/raymond/fb1.png'
 
-
+const image =  "https://www.storybangor.com" + ShareImage;
+const schema = [
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Brenda’s Story - Tracing The Rainbow Through The Rain",
+  "startDate": "2018-05-11T20:00",
+  "location": {
+    "@type": "Place",
+    "name": "Lisnabreen Presbyterian Church",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lisnabreen Walk",
+      "addressLocality": "Bangor",
+      "postalCode": "BT20 4XJ",
+      "addressCountry": "UK"
+    }
+  },
+  image,
+  "description": "“I warned you Brenda, that’s what you get for dating a soldier – heartache. A life eartache.” Come and hear Brenda Hale’s truly heartbreaking, yet ultimately hopeful, story and an encouraging talk by Glen Scrivener.",
+  "performer": {
+    "@type": "Person",
+    "name": ["Brenda Hale","Glen Scrivener"]
+    }
+}
+]
 const PageMeta = () => (
         <div className="SEO">
+
             <Helmet>
-              <meta name="description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
+              <meta name="description" content="“I warned you Brenda, that’s what you get for dating a soldier – heartache. A life of heartache.” Come and hear Brenda Hale’s truly heartbreaking, yet ultimately hopeful, story and an encouraging talk by Glen Scrivener."
               />
-              <meta name="title" content="Bangor's Story | Story Bangor"
+              <title>Brenda’s Story - Tracing The Rainbow Through The Rain | Story Bangor</title>
               />
-              <meta property="og:url" content="https://www.storybangor.com/events/bangors-story/" />
-              <meta property="og:title" content="Bangor's Story | Story Bangor" />
-              <meta property="og:description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide." />
-              <meta property="og:image" content={facebook} />
+              <meta property="og:url" content="https://www.storybangor.com/events/brendas-story/" />
+              <meta property="og:title" content="Brenda’s Story - Tracing The Rainbow Through The Rain | Story Bangor" />
+              <meta property="og:description" content="“I warned you Brenda, that’s what you get for dating a soldier – heartache.“ Come and hear Brenda Hale’s truly heartbreaking, yet ultimately hopeful, story and an encouraging talk by Glen Scrivener." />
+              <meta property="og:image" content={image} />
               <meta property="og:image:width" content="1200" />
               <meta property="og:image:height" content="630" />
 
@@ -26,9 +48,12 @@ const PageMeta = () => (
               <meta name="twitter:card" content="summary_large_image" />
               <meta name="twitter:site" content="@storybangor" />
               <meta name="twitter:creator" content="@storybangor" />
-              <meta name="twitter:title" content="Bangor's Story | Story Bangor" />
-              <meta name="twitter:description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide." />
-              <meta name="twitter:image" content={facebook} />
+              <meta name="twitter:title" content="Brenda’s Story - Tracing The Rainbow Through The Rain | Story Bangor" />
+              <meta name="twitter:description" content="“I warned you Brenda, that’s what you get for dating a soldier – heartache. A life of heartache.” Come and hear Brenda Hale’s truly heartbreaking, yet ultimately hopeful, story and an encouraging talk by Glen Scrivener." />
+              <meta name="twitter:image" content={image} />
+              <script type="application/ld+json">
+                {JSON.stringify(schema)}
+              </script>
             </Helmet>
         </div>
 );

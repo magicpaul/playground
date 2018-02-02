@@ -1,8 +1,5 @@
 import React from 'react';
 import Main from './components/_Main';
-import DevHomework from '../../components/layout/DevHomework';
-import CodeBlock from '../../components/CodeBlock';
-import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
 import ShareImage from './img/emma/emma-fb.png'
 
