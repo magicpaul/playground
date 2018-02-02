@@ -62,7 +62,7 @@ const PageMeta = () => (
             <Helmet>
               <meta name="description" content="Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide."
               />
-              <meta name="title" content="Bangor's Story | Story Bangor"
+              <title>Bangor's Story | Story Bangor</title>
               />
               <meta property="og:url" content="https://www.storybangor.com/events/bangors-story/" />
               <meta property="og:title" content="Bangor's Story | Story Bangor" />

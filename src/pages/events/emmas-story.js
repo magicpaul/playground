@@ -38,7 +38,7 @@ const PageMeta = () => (
             <Helmet>
               <meta name="description" content="‘My version of repentance had no room for kindness,’ admits Emma. ‘It said, “Pull yourself together. Try harder. Do more… Fix your own mistakes or face the consequences…” But real repentance looks very different. It’s the product of God’s kindness, undeserved and poured out without limit.’ Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen."
               />
-              <meta name="title" content="Emma’s Story | Story Bangor"
+              <title>Emma’s Story | Story Bangor</title>
               />
               <meta property="og:url" content="https://www.storybangor.com/events/emmas-story/" />
               <meta property="og:title" content="Emma’s Story | Story Bangor" />
