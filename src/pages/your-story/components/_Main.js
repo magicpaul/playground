@@ -30,8 +30,8 @@ const Main = ({ article, homework }) => {
 
         {/* Twitter Meta */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@firefox" />
-        <meta name="twitter:creator" content="@firefox" />
+        <meta name="twitter:site" content="@storybangor" />
+        <meta name="twitter:creator" content="@storybangor" />
         <meta name="twitter:title" content="Your Story | Story Bangor" />
         <meta
           name="twitter:description"

@@ -19,7 +19,7 @@ const Main = ({ article, homework }) => {
         <title>{`The Greatest Story | Story Bangor`}</title>
         <meta
           name="description"
-          content="Hear the Greatest Story Ever Told, in under 90 seconds!"
+          content="Listen the greatest story ever told... in 90 seconds!"
         />
 
         {/* Facebook Meta */}
@@ -27,7 +27,7 @@ const Main = ({ article, homework }) => {
         <meta property="og:title" content="The Greatest Story | Story Bangor" />
         <meta
           property="og:description"
-          content="Hear the Greatest Story Ever Told, in under 90 seconds!"
+          content="Listen the greatest story ever told... in 90 seconds!"
         />
         <meta property="og:image" content={ShareImageURL} />
 
@@ -38,7 +38,7 @@ const Main = ({ article, homework }) => {
         <meta name="twitter:title" content="The Greatest Story | Story Bangor" />
         <meta
           name="twitter:description"
-          content="Hear the Greatest Story Ever Told, in under 90 seconds!"
+          content="Listen the greatest story ever told... in 90 seconds!"
         />
         <meta name="twitter:image" content={ShareImageURL} />
       </Helmet>
