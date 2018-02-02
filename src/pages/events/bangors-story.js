@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import ShareImage from './img/story1/bangor-abbey-fb.jpg'
 import abbey from './img/story1/bangor-abbey.jpg'
 
-const image =  "https://www.storybangor.com/" + ShareImage;
+const image =  "https://www.storybangor.com" + ShareImage;
 const schema = [
 {
   "@context": "http://schema.org",
