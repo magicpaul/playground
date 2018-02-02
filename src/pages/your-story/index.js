@@ -32,10 +32,10 @@ Let us know by filling in the form below and we will get in touch with you.</p>
               Your Mobile Number: <input type="tel" name="phone"/>
             </label>
             <label>
-              <input type="checkbox" name="explore" /> I’d like to EXPLORE more
+              <input type="checkbox" name="explore" value="yes"/> I’d like to EXPLORE more
             </label>
             <label>
-              <input type="checkbox" name="follow" /> I’d like to BEGIN following Jesus
+              <input type="checkbox" name="follow" value="yes"/> I’d like to BEGIN following Jesus
             </label>
             <button type="submit" className="button--block">Send</button>
         </fieldset>
