@@ -6,7 +6,7 @@ import ResponsiveEmbed from 'react-responsive-embed'
 
 const Article = () => (
   <div>
-  <ResponsiveEmbed src="https://player.vimeo.com/video/253671047?byline=0&portrait=0" allowFullScreen/>
+  <ResponsiveEmbed src="https://www.youtube.com/embed/xUzhP_s4yfg" allowFullScreen/>
     <p className="padding-top">The Greatest Story Ever Told begins in <strong>light</strong> and <strong>life</strong> and  <strong>love</strong>.</p>
     <p>There's always been a Father<br/>loving His son, Jesus,<br/>in the joy of the Holy Sprit<br/>
     and you think, &ldquo;How wonderful that the story begins like that,<em> but that's not the world that we see.</em>&rdquo;</p>
