@@ -37,7 +37,7 @@ const PageMeta = () => (
               />
               <title>The Thief’s Story | Story Bangor</title>
               />
-              <meta property="og:url" content="https://www.storybangor.com/events/the-story-that-changes/" />
+              <meta property="og:url" content="https://www.storybangor.com/events/the-thiefs-story/" />
               <meta property="og:title" content="The Thief’s Story | Story Bangor" />
               <meta property="og:description" content="Come and watch Marty Gray perform the one-man play: Heaven, How I Got Here, which tells the story of a thief who died beside Jesus, and hear this story explained by Glen Scrivener." />
               <meta property="og:image" content={image} />
