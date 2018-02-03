@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from './components/_Main';
 import { Helmet } from 'react-helmet';
-import ShareImage from './img/story-1/fb.png'
+import ShareImage from './img/story1/fb.png'
 
 const image =  "https://www.storybangor.com" + ShareImage;
 const schema = [
