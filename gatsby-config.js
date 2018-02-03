@@ -3,6 +3,7 @@ const autoprefixer = require('autoprefixer');
 module.exports = {
   siteMetadata: {
     title: 'Story Bangor',
+    siteUrl: 'https://www.storybangor.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,6 +18,9 @@ module.exports = {
       options: {
         trackingId: 'UA-112042091-1',
       },
+    },
+    {
+    resolve: `gatsby-plugin-sitemap`
     },
   ],
   pathPrefix: '/playground',
