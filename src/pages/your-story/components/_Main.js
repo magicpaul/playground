@@ -20,7 +20,7 @@ const Main = ({ article, homework }) => {
         />
 
         {/* Facebook Meta */}
-        <meta property="og:url" content="r" />
+        <meta property="og:url" content="www.storybangor.com/your-story/" />
         <meta property="og:title" content="Your Story | Story Bangor" />
         <meta
           property="og:description"
