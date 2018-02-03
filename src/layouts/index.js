@@ -6,7 +6,7 @@ import 'typeface-megrim';
 import faviconico from './img/favicon.ico';
 import faviconpng from './img/favicon.png';
 import logo from '../pages/img/sbfb.png';
-
+const image =  "https://www.storybangor.com" + logo;
 // styles
 import '../styles/style.scss';
 
@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
       <meta property="og:url" content="https://www.storybangor.com" />
       <meta property="og:title" content="Story Bangor" />
       <meta property="og:description" content="Sharing great stories with the people of Bangor"/>
-      <meta property="og:image" content={logo} />
+      <meta property="og:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@storybangor" />
       <meta name="twitter:creator" content="@storybangor" />
@@ -51,7 +51,7 @@ const Layout = ({ children }) => (
         name="twitter:description"
         content="Sharing great stories with the people of Bangor"
       />
-      <meta name="twitter:image" content={logo} />
+      <meta name="twitter:image" content={image} />
       <script type="application/ld+json">
           {JSON.stringify(schemaOrgJSONLD)}
         </script>
