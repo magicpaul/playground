@@ -5,30 +5,30 @@ import DownloadLink from '../../components/DownloadLink';
 import ImgCaption from '../../components/ImgCaption';
 import { Helmet } from 'react-helmet';
 import facebook from './img/story1/fb.png'
-
+const image =  "https://www.storybangor.com" + facebook;
 const PageMeta = () => (
         <div className="SEO">
             <Helmet>
-              <meta name="description" content="description"
+              <meta name="description" content="Hear some great local stories"
               />
-              <meta property="og:url" content="www.example.com" />
+              <meta property="og:url" content="www.storybangor.com/local-stories" />
               <meta property="og:title" content="Local Stories" />
               <meta
                 property="og:description"
-                content="description"
+                content="Hear some great local stories"
               />
-              <meta property="og:image" content={facebook} />
+              <meta property="og:image" content={image} />
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@story_bangor" />
-              <meta name="twitter:creator" content="@story_bangor" />
+              <meta name="twitter:site" content="@storybangor" />
+              <meta name="twitter:creator" content="@storybangor" />
               <meta name="twitter:title" content="Local Stories" />
               <meta
                 name="twitter:description"
-                content="description"
+                content="Hear some great local stories"
               />
-              <meta name="twitter:image" content={facebook} />
+              <meta name="twitter:image" content={image} />
             </Helmet>
         </div>
 );
