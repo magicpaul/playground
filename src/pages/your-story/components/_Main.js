@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 // images
 import facebook from './img/fb.png';
-
+const image =  "https://www.storybangor.com" + facebook;
 // Components
 import Hero from '../../../components/layout/Hero';
 
@@ -13,10 +13,10 @@ const Main = ({ article, homework }) => {
   return (
     <div>
       <Helmet>
-        <title>{`Your Story | Story Bangor`}</title>
+        <title>Your Story | Story Bangor</title>
         <meta
           name="description"
-          content="Learn how to use the Firefox Debugger to find and fix bugs."
+          content="Find out more about EXPLORING Jesus and the Christian faith or BEGINNING to follow Jesus"
         />
 
         {/* Facebook Meta */}
@@ -24,9 +24,11 @@ const Main = ({ article, homework }) => {
         <meta property="og:title" content="Your Story | Story Bangor" />
         <meta
           property="og:description"
-          content=""
+          content="Find out more about EXPLORING Jesus and the Christian faith or BEGINNING to follow Jesus"
         />
-        <meta property="og:image" content={facebook} />
+        <meta property="og:image" content={image} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
 
         {/* Twitter Meta */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -35,9 +37,9 @@ const Main = ({ article, homework }) => {
         <meta name="twitter:title" content="Your Story | Story Bangor" />
         <meta
           name="twitter:description"
-          content=""
+          content="Find out more about EXPLORING Jesus and the Christian faith or BEGINNING to follow Jesus"
         />
-        <meta name="twitter:image" content="https://i.imgur.com/HQemmAf.png" />
+        <meta name="twitter:image" content={image} />
       </Helmet>
 
       <Hero breadcrumb>
