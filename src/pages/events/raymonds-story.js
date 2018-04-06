@@ -1,7 +1,8 @@
 import React from 'react';
 import Main from './components/_Main';
 import { Helmet } from 'react-helmet';
-import ShareImage from './img/raymond/fb1.png'
+import ShareImage from './img/raymond/fb1.png';
+import rp from './img/raymond/rp.jpg';
 
 const image =  "https://www.storybangor.com" + ShareImage;
 const schema = [
@@ -64,11 +65,12 @@ const Article = () => (
     <h2>Raymond’s Story - Travel Is My Business</h2>
     <h3>Friday - 7:30-9am - Coffee Cure @ The Heritage Centre</h3>
     <p>Enjoy a Coffee Cure breakfast and the opportunity to hear local businessman Raymond Parker’s story and a stimulating talk from Glen Scrivener.</p>
+    <p>Tickets are available via <a href="https://storybangor.eventbrite.co.uk">storybangor.eventbrite.co.uk</a> and payment of £5 for
+breakfast will be taken at the event.</p>
 
 <h3>The Storytellers</h3>
 
-<h4>Raymond Parker</h4>
-
+<h4>Raymond Parker</h4><img src={rp} style={{float: "right", paddingLeft: 1 +'em'}}/>
 <p>Raymond is the owner and Managing Director of Feherty Travel. He has over 45 years’ experience in the travel Industry and has travelled extensively throughout the world. Raymond has much wisdom to share on running a successful business and living a full life.</p>
 
 <h4>Glen Scrivener</h4>

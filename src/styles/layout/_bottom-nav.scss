@@ -11,7 +11,7 @@
 }
 
 .bottom-nav__item {
-  width: 50%;
+  width: 100%;
   float: left;
   padding: 0 space(6);
   height: space(12);
@@ -19,17 +19,23 @@
   align-items: center;
 
   &--right {
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
     justify-content: flex-start;
   }
 
   &--left {
-    text-align: right;
+    text-align: left;
     justify-content: flex-end;
   }
 
-  @include bp(medium) {
+  @include bp(xsmall) {
     padding: 0 space(12);
+    width: 50%;
+    &--right {
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    &--left{
+      text-align: right;
+    }
   }
 }
 

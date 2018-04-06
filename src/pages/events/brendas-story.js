@@ -2,6 +2,7 @@ import React from 'react';
 import Main from './components/_Main';
 import { Helmet } from 'react-helmet';
 import ShareImage from './img/story1/fb.png'
+import ResponsiveEmbed from 'react-responsive-embed'
 
 const image =  "https://www.storybangor.com" + ShareImage;
 const schema = [
@@ -62,7 +63,8 @@ const Article = () => (
   <div>
     <h2>Brenda’s Story - Tracing The Rainbow Through The Rain</h2>
     <h3>Friday 8pm - Lisnabreen Presbyterian Church</h3>
-    <p>“I warned you Brenda, that’s what you get for dating a soldier – heartache. A life of heartache.”<br/>Come and hear Brenda Hale’s truly heartbreaking, yet ultimately hopeful, story and an encouraging talk by Glen Scrivener.</p>
+    <ResponsiveEmbed src="https://www.youtube.com/embed/Kfv_u-4l18U" allowFullScreen/>
+    <p className="padding-top">“I warned you Brenda, that’s what you get for dating a soldier – heartache. A life of heartache.”<br/>Come and hear Brenda Hale’s truly heartbreaking, yet ultimately hopeful, story and an encouraging talk by Glen Scrivener.</p>
 
 <h3>The Storytellers</h3>
 

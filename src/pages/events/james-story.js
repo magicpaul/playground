@@ -2,6 +2,7 @@ import React from 'react';
 import Main from './components/_Main';
 import { Helmet } from 'react-helmet';
 import ShareImage from './img/james/fb1.png'
+import ResponsiveEmbed from 'react-responsive-embed'
 
 const image =  "https://www.storybangor.com" + ShareImage;
 const schema = [
@@ -62,8 +63,9 @@ const Article = () => (
   <div>
     <h2>James’ Story - When Life Throws A Curve Ball </h2>
     <h3>Thursday - 8pm - St Andrew's Presbyterian Church</h3>
+    <ResponsiveEmbed src="https://www.youtube.com/embed/mUkFAfkKd2I
+" allowFullScreen/>
     <p>A hospital bed instead of a headmaster’s study – how could this ever be God’s best for anyone’s life? Come and hear James Shone’s courageous story, followed by a hope-filled talk by Glen Scrivener. </p>
-    <img src={ShareImage} />
     <h3>The Storytellers</h3>
 
     <h4>James Shone</h4>

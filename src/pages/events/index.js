@@ -45,7 +45,7 @@ const Article = () => (
     Hamilton Road Presbyterian Church</p>
 
 
-    <h3><Link to="/events/hope-when-it-hurts">Hope When It Hurts - Women's Event</Link></h3>
+    <h3><Link to="/events/honors-story">Honor’s Story - Hope When It Hurts (Women's Event)</Link></h3>
     <p>Thursday 10th May <br/>
     9:30am <br/>
     Hamilton Road Baptist Church</p>

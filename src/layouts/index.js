@@ -37,11 +37,11 @@ const Layout = ({ children }) => (
       <title>{'Story Bangor'}</title>
       <meta
         name="description"
-        content="Sharing great stories with the people of Bangor"
+        content="Come and hear true, inspirational stories this May"
       />
       <meta property="og:url" content="https://www.storybangor.com" />
       <meta property="og:title" content="Story Bangor" />
-      <meta property="og:description" content="Sharing great stories with the people of Bangor"/>
+      <meta property="og:description" content="Come and hear true, inspirational stories this May"/>
       <meta property="og:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@storybangor" />
@@ -49,7 +49,7 @@ const Layout = ({ children }) => (
       <meta name="twitter:title" content="Story Bangor" />
       <meta
         name="twitter:description"
-        content="Sharing great stories with the people of Bangor"
+        content="Come and hear true, inspirational stories this May"
       />
       <meta name="twitter:image" content={image} />
       <script type="application/ld+json">

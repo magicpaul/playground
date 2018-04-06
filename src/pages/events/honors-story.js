@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from './components/_Main';
 import { Helmet } from 'react-helmet';
-import ShareImage from './img/hope/fb1.png'
+import ShareImage from './img/hope/honor.jpg'
 
 const image =  "https://www.storybangor.com" + ShareImage;
 const schema = [
@@ -58,8 +58,12 @@ const Article = () => (
   <div>
     <h2>Hope When It Hurts - Women’s Event</h2>
     <h3>Thursday - 9:30am - Hamilton Road Baptist Church</h3>
-
-<p>Women of all ages and stages are invited to Hamilton Road Baptist Church to enjoy coffee and treats, and hear how one woman found great hope in the midst of experiencing some of life's deep hurts.</p>
+<img src={ShareImage} alt="Emma" />
+<p>Women of all ages and stages are invited to Hamilton Road Baptist Church to enjoy coffee and treats, and hear local woman, Honour Davis’s story. Honor lost her sight when she was twenty six years old, having a six month old baby at the the time.</p>
+<p>Now now sixty-five, the faces of her children and grandchildren are still unfamiliar to her. Honour hasfaced many heartaches since losing her sight, but has also found a great source of hope through all the pain. Come and hear Honor’s story and a hope-filled talk from Glen Scrivener.
+</p>
+<p><strong>Free childcare for preschool aged children will be provided at this event.</strong></p>
+<p>No ticket is required for this event.</p>
   </div>
 );
 

@@ -19,9 +19,9 @@ const pageData = [
   },
   {
     order: 4,
-    title: 'Hope When It Hurts',
-    link: '/events/hope-when-it-hurts',
-    longtitle: 'Hope When It Hurts - Women’s Event',
+    title: 'Honor’s Story',
+    link: '/events/honors-story',
+    longtitle: 'Honor’s Story - Hope When It Hurts (Women’s Event)',
   },
   {
     order: 5,
