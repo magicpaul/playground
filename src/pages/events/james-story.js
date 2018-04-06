@@ -65,7 +65,7 @@ const Article = () => (
     <h3>Thursday - 8pm - St Andrew's Presbyterian Church</h3>
     <ResponsiveEmbed src="https://www.youtube.com/embed/mUkFAfkKd2I
 " allowFullScreen/>
-    <p>A hospital bed instead of a headmaster’s study – how could this ever be God’s best for anyone’s life? Come and hear James Shone’s courageous story, followed by a hope-filled talk by Glen Scrivener. </p>
+    <p className="padding-top">A hospital bed instead of a headmaster’s study – how could this ever be God’s best for anyone’s life? Come and hear James Shone’s courageous story, followed by a hope-filled talk by Glen Scrivener. </p>
     <h3>The Storytellers</h3>
 
     <h4>James Shone</h4>

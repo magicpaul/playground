@@ -64,7 +64,7 @@ const Article = () => (
     <h2>Emma’s Story - Anorexia Loses Its Grip</h2>
     <h3>Wednesday - 8pm - Hamilton Road Presbyterian Church</h3>
     <ResponsiveEmbed src="https://www.youtube.com/embed/5KAGnVYf2h8" allowFullScreen/>
-<p>Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen.</p>
+<p className="padding-top">Come and hear Emma Scrivener’s deeply moving story and a talk from her husband Glen.</p>
 <p>No ticket is required for this event</p>
 
 <h3>The Storytellers</h3>
