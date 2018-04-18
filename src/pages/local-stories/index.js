@@ -70,6 +70,11 @@ const Article = () => (
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/thks4BPmn3U" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
       </div>
     </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MUZp0xkolwU" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+    </div>
 
   </div>
 );
