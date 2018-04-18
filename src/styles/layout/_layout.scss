@@ -43,12 +43,14 @@
   max-width: 800px;
   width:100%;
 
-  @include bp(large) {
+  @include bp(medium) {
     width: 48%;
     padding: 1%;
     float: left;
   }
-
+  .extra-top-pad{
+    padding-top: 0.5em;
+  }
   &__video {
     position: relative;
     padding-bottom: 56.25%;
