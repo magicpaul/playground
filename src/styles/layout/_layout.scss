@@ -42,11 +42,13 @@
 .media {
   max-width: 800px;
   width:100%;
+
   @include bp(large) {
     width: 48%;
     padding: 1%;
     float: left;
   }
+
   &__video {
     position: relative;
     padding-bottom: 56.25%;
