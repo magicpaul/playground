@@ -22,7 +22,7 @@ const schema = [
     }
   },
   image,
-  "description": "Join us for a very special afternoon as family entertainer Brian Mitchell shares some stories in surprising and amazing ways.",
+  "description": "Join us for a very special afternoon as family entertainer Brian Mitchell shares some skills in surprising and amazing ways.",
   "endDate": "2018-05-2T17:15",
   "performer": {
     "@type": "Person",
@@ -63,7 +63,7 @@ const Article = () => (
   <div>
     <h2>The Amazing Story - Family Event</h2>
     <h3>Saturday 3:30pm – 5:15pm – Hamilton Road Presbyterian Church</h3>
-    <p>Join us for a very special afternoon as family entertainer Brian Mitchell shares some stories in surprising and amazing ways. Mums, dads and other adults will have the opportunity to hear an engaging talk from Glen Scrivener, while Brian continues sharing his skills with the boys and girls. This event is suitable for all ages and refreshments will be served during the afternoon.</p>
+    <p>Join us for a very special afternoon as family entertainer Brian Mitchell shares some skills in surprising and amazing ways. Mums, dads and other adults will have the opportunity to hear an engaging talk from Glen Scrivener, while Brian continues sharing his talents with the boys and girls. This event is suitable for all ages.</p>
     <p>Tickets are available via <a href="https://storybangor.eventbrite.co.uk">storybangor.eventbrite.co.uk</a>.</p>
 
 <h3>The Storytellers</h3>

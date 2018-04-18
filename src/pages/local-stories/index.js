@@ -34,8 +34,43 @@ const PageMeta = () => (
 );
 
 const Article = () => (
-  <div className="thanks-block">
-    <h1>Coming Soon</h1>
+  <div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BNd6G7ksoa4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_aOrPLW-AsM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i-k5je5T7z0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w76QFrR4Gxo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/09xKIASr390" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dGoHD5fy_5I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/thks4BPmn3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
   </div>
 );
 

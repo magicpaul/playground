@@ -65,6 +65,7 @@ const Article = () => (
     <h3>Saturday 8pm - Hamilton Road Baptist Church </h3>
     <p>Come and watch Marty Gray perform the one-man play: Heaven, How I Got Here, which tells the story of a thief who died beside Jesus, and hear this story explained by Glen Scrivener. Doors open at 7:30pm.</p>
     <p>Tickets are available via <a href="https://storybangor.eventbrite.co.uk">storybangor.eventbrite.co.uk</a>.</p>
+    <p>Creme Bakehouse (High Street) have put together a delicious pre-theatre menu for this event, for more information and to book a table, please contact them directly on <a href="tel:02891275002">02891275002</a>. </p>
 
 <h3>The Storytellers</h3>
 

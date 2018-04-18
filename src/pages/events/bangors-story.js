@@ -88,7 +88,10 @@ const PageMeta = () => (
 const Article = () => (
   <div>
     <h2>Bangor’s Story - Discover Our Heritage</h2>
-    <h3>Wednesday & Thursday 10am - Noon</h3>
+    <h3>Wednesday & Thursday</h3>
+    <p>Morning Tour : 9:45am - 12:30pn<br/>
+    Afternoon Tour : 1:45pm - 4:30pm</p>
+<p>Tickets can be booked via <a href="storybangor.eventbrite.co.uk">storybangor.eventbrite.co.uk</a></p>
     <p>Come explore Bangor’s Christian heritage with David Irwin at the wheel and Robert McKinley as tour guide. Board the coach at Hamilton Road Presbyterian Church’s Welcome Centre and finish up with refreshments and a short talk about the historical Jesus from Glen Scrivener.</p>
 <img src={abbey} />
 
