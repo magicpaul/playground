@@ -35,8 +35,8 @@ const PageMeta = () => (
 const Article = () => (
   <div>
     <h3><Link to="/events/bangors-story/">Bangor's Story - Discover Our Heritage</Link></h3>
-    <p>Wednesday 9th & Thursday 10th May<br/>
-    10am - Noon<br/>
+    <p>Morning Tour : 9:45am - 12:30pm<br/>
+    Afternoon Tour : 1:45pm - 4:30pm<br/>
     Coach tour begins and ends at Hamilton Road Presbyterian </p>
 
     <h3><Link to="/events/emmas-story">Emma’s Story – Anorexia Loses Its Grip</Link></h3>
@@ -50,7 +50,7 @@ const Article = () => (
     9:30am <br/>
     Hamilton Road Baptist Church</p>
 
-    <h3><Link to="/events/james-story">James’s Story – When Life Throws a Curve Ball </Link></h3>
+    <h3><Link to="/events/james-story">James’ Story – When Life Throws a Curve Ball </Link></h3>
     <p>Thursday 10th May<br/>
     8pm <br/>
     St Andrew's Presbyterian Church</p>
@@ -68,7 +68,7 @@ const Article = () => (
 
     <h3><Link to="/events/the-story-that-changes">The Story That Changes - Youth Event</Link></h3>
     <p>Friday 11th May <br/>
-    8pm <br/>
+    7.45pm <br/>
     Hamilton Road Baptist Church </p>
 
     <h3><Link to="/events/the-amazing-story">The Amazing Story  – Family Event</Link></h3>

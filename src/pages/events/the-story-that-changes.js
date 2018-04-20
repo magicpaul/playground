@@ -9,7 +9,7 @@ const schema = [
     "@context": "http://schema.org",
     "@type": "Event",
     "name": "The Story That Changes - Youth Event",
-    "startDate": "2018-05-10T19:045",
+    "startDate": "2018-05-10T19:45",
     "location": {
       "@type": "Place",
       "name": "Hamilton Road Baptist Church",
