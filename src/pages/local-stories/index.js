@@ -91,6 +91,62 @@ const Article = () => (
       <h3 className="extra-top-pad">Pat&rsquo;s Story</h3>
       <p>&ldquo;I was a very violent person&rdquo;</p>
     </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ITyb6-4-XAU" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Jonah&rsquo;s Story</h3>
+      <p>&ldquo;From pastor&rsquo;s kid to prodigal&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2_XEPOQkNmQ" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Aaron&rsquo;s Story</h3>
+      <p>&ldquo;Our car exploded&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GrO9MfwRG9I" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Campbell&rsquo;s Story</h3>
+      <p>&ldquo;Our enjoyment of the beach at Ballyholme was short-lived&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FivniYLJD7I" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Dougie&rsquo;s Story</h3>
+      <p>&ldquo;No lightning bolts, no major change in lifestyle&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3WGY9s2099w" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Ella&rsquo;s Story</h3>
+      <p>&ldquo;There was a 50% chance I wouldn't make it&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mqdhA6G9FfY" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Cameron&rsquo;s Story</h3>
+      <p>&ldquo;I am confident that God is in control&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3wjO8TosSTc" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Abbie&rsquo;s Story</h3>
+      <p>&ldquo;My aunt and my granny both had cancer&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VPJdcgTD-WY" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">John &amp; Sarah&rsquo;s Story</h3>
+      <p>&ldquo;We felt like we were drowning&rdquo;</p>
+    </div>
 
   </div>
 );

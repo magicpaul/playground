@@ -63,7 +63,7 @@ const Article = () => (
 <p>Now now sixty-five, the faces of her children and grandchildren are still unfamiliar to her. Honour hasfaced many heartaches since losing her sight, but has also found a great source of hope through all the pain. Come and hear Honor’s story and a hope-filled talk from Glen Scrivener.
 </p>
 <p><strong>Free childcare for preschool aged children will be provided at this event.</strong></p>
-<p>Tickets are not required for adults but please book a childcare place for your child via <a href="storybangor.eventbrite.co.uk">storybangor.eventbrite.co.uk</a> </p>
+<p>Tickets are not required for adults but please book a childcare place for your child via <a href="https://storybangor.eventbrite.co.uk">storybangor.eventbrite.co.uk</a> </p>
   </div>
 );
 
