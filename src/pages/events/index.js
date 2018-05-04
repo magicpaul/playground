@@ -1,9 +1,10 @@
 import React from 'react';
 import Main from './components/_Main';
 import { Helmet } from 'react-helmet';
-import facebook from './img/story1/fb.png'
+import ShareImage from './img/story1/fb.png'
 import Link from 'gatsby-link';
 
+const image =  "https://www.storybangor.com" + ShareImage;
 
 const PageMeta = () => (
         <div className="SEO">
@@ -11,23 +12,23 @@ const PageMeta = () => (
               <meta name="description" content="Check out what’s happening"
               />
               <meta property="og:url" content="https://www.storybangor.com/events" />
-              <meta property="og:title" content="Local Stories" />
+              <meta property="og:title" content="Story Bangor Events" />
               <meta
                 property="og:description"
                 content="Check out what’s happening"
               />
-              <meta property="og:image" content={facebook} />
+              <meta property="og:image" content={image} />
 
               {/* Twitter Meta */}
               <meta name="twitter:card" content="summary_large_image" />
               <meta name="twitter:site" content="@storybangor" />
               <meta name="twitter:creator" content="@storybangor" />
-              <meta name="twitter:title" content="Local Stories" />
+              <meta name="twitter:title" content="Story Bangor Events" />
               <meta
                 name="twitter:description"
                 content="Check out what’s happening"
               />
-              <meta name="twitter:image" content={facebook} />
+              <meta name="twitter:image" content={image} />
             </Helmet>
         </div>
 );
