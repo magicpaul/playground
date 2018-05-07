@@ -2,6 +2,7 @@ import React from 'react';
 import Main from './components/_Main';
 import { Helmet } from 'react-helmet';
 import ShareImage from './img/story1/fb.png'
+import ResponsiveEmbed from 'react-responsive-embed'
 
 const image =  "https://www.storybangor.com" + ShareImage;
 const schema = [
@@ -65,6 +66,8 @@ const Article = () => (
 <p>This is a FREE event for all secondary school aged young people.</p>
 
 <p><strong>Tickets are not required for this event</strong></p>
+<ResponsiveEmbed src="https://www.youtube.com/embed/NuL1G6ofWKI
+" allowFullScreen/>
 
   </div>
 );

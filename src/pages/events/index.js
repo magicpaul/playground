@@ -35,44 +35,44 @@ const PageMeta = () => (
 
 const Article = () => (
   <div>
-    <h3><Link to="/events/bangors-story/">Bangor's Story - Discover Our Heritage</Link></h3>
+    <h3><Link to="/events/bangors-story/">Bangor's Story &ndash; Discover Our Heritage</Link></h3>
     <p>Morning Tour : 9:45am - 12:30pm<br/>
     Afternoon Tour : 1:45pm - 4:30pm<br/>
     Coach tour begins and ends at Hamilton Road Presbyterian </p>
 
-    <h3><Link to="/events/emmas-story">Emma’s Story – Anorexia Loses Its Grip</Link></h3>
+    <h3><Link to="/events/emmas-story">Emma’s Story &ndash; Anorexia Loses Its Grip</Link></h3>
     <p>Wednesday 9th May <br/>
     8pm <br/>
     Hamilton Road Presbyterian Church</p>
 
 
-    <h3><Link to="/events/honors-story">Honor’s Story - Hope When It Hurts (Women's Event)</Link></h3>
+    <h3><Link to="/events/honors-story">Honor’s Story &ndash; Hope When It Hurts (Women's Event)</Link></h3>
     <p>Thursday 10th May <br/>
     9:30am <br/>
     Hamilton Road Baptist Church</p>
 
-    <h3><Link to="/events/james-story">James’ Story – When Life Throws a Curve Ball </Link></h3>
+    <h3><Link to="/events/james-story">James’ Story &ndash; When Life Throws a Curve Ball </Link></h3>
     <p>Thursday 10th May<br/>
     8pm <br/>
     St Andrew's Presbyterian Church</p>
 
 
-    <h3><Link to="/events/raymonds-story">Raymond’s Story - Travel Is My Business</Link></h3>
+    <h3><Link to="/events/raymonds-story">Raymond’s Story &ndash; Travel Is My Business</Link></h3>
     <p>Friday 11th May <br/>
     7:30-9am <br/>
     Coffee Cure @ The Heritage Centre</p>
 
-    <h3><Link to="/events/brendas-story">Brenda’s Story – Tracing the Rainbow Through the Rain</Link></h3>
+    <h3><Link to="/events/brendas-story">Brenda’s Story &ndash; Tracing the Rainbow Through the Rain</Link></h3>
     <p>Friday 11th May <br/>
     8pm <br/>
     Lisnabreen Presbyterian Church </p>
 
-    <h3><Link to="/events/the-story-that-changes">The Story That Changes - Youth Event</Link></h3>
+    <h3><Link to="/events/the-story-that-changes">The Story That Changes &ndash; Youth Event</Link></h3>
     <p>Friday 11th May <br/>
     7.45pm <br/>
     Hamilton Road Baptist Church </p>
 
-    <h3><Link to="/events/the-amazing-story">The Amazing Story  – Family Event</Link></h3>
+    <h3><Link to="/events/the-amazing-story">The Amazing Story &ndash; Family Event</Link></h3>
     <p>Saturday 12th May <br/>
     3:30pm – 5:15pm <br/>
     Hamilton Road Presbyterian Church</p>

@@ -147,6 +147,20 @@ const Article = () => (
       <h3 className="extra-top-pad">John &amp; Sarah&rsquo;s Story</h3>
       <p>&ldquo;We felt like we were drowning&rdquo;</p>
     </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FfeL9J0WcW8" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Lisa&rsquo;s Story</h3>
+      <p>&ldquo;She would have been like a computer or TV that never booted up&rdquo;</p>
+    </div>
+    <div className="media">
+      <div className="media__video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/D4-GMGlTtxo" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <h3 className="extra-top-pad">Becca&rsquo;s Story</h3>
+      <p>&ldquo;My Christian bubble sudenly popped&rdquo;</p>
+    </div>
 
   </div>
 );
