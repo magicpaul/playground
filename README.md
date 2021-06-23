@@ -1,6 +1,6 @@
 # Story Bangor
 
-[View the website](www.storybangor.com)
+[View the website](https://story-bangor.netlify.app/)
 
 This website was built with Gatsby.
 
